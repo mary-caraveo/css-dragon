@@ -20,7 +20,7 @@ html {
   position: absolute;
   font-family: "Henny Penny", cursive;
   font-size: 22px;
-  color: #794c74;
+  color: #9eb633;
   left: -15rem;
   animation: bounce-in-right 5s ease-in-out;
 }
@@ -81,14 +81,14 @@ html {
 .eyes-left {
   border-left: 2px solid #000000;
   border-right: 10px solid #000000;
-  left: 50px;
+  left: 80px;
   top: 130px;
 }
 
 .eyes-right {
   border-left: 10px solid #000000;
   border-right: 2px solid #000000;
-  right: 50px;
+  right: 80px;
   top: 130px;
 }
 
@@ -102,13 +102,13 @@ html {
 }
 
 .eyes_medium_left {
-  top: 25px;
-  left: 25px;
+  top: 40px;
+  left: 15px;
 }
 
 .eyes_medium_right {
-  top: 25px;
-  right: 25px;
+  top: 40px;
+  right: 15px;
 }
 
 /* iris */
@@ -157,4 +157,79 @@ html {
   100% {
     transform: translateY(-30px);
   }
+}
+
+.mount {
+  position: relative;
+  top: 330px;
+  left: -240px;
+}
+
+.tooth {
+  position: absolute;
+  background: white;
+  border-radius: 50% / 100% 100% 0 0;
+  transform: rotate(180deg);
+}
+
+.tooth-1 {
+  width: 25px;
+  height: 18px;
+  left: 50px;
+  transform: rotate(190deg);
+}
+
+.tooth-2 {
+  width: 25px;
+  height: 20px;
+  left: 100px;
+  top: 10px;
+  transform: rotate(190deg);
+}
+
+.tooth-3 {
+  width: 25px;
+  height: 12px;
+  left: 150px;
+  top: 16px;
+  transform: rotate(188deg);
+}
+
+.tooth-4 {
+  width: 25px;
+  height: 12px;
+  left: 200px;
+  top: 20px;
+  transform: rotate(185deg);
+}
+
+.tooth-5 {
+  width: 25px;
+  height: 15px;
+  right: -270px;
+  top: 20px;
+  transform: rotate(-185deg);
+}
+
+.tooth-6 {
+  width: 25px;
+  height: 15px;
+  right: -320px;
+  top: 16px;
+  transform: rotate(-188deg);
+}
+
+.tooth-7 {
+  width: 25px;
+  height: 20px;
+  right: -370px;
+  top: 10px;
+  transform: rotate(-190deg);
+}
+
+.tooth-8 {
+  width: 25px;
+  height: 18px;
+  right: -420px;
+  transform: rotate(-190deg);
 }
