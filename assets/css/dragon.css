@@ -159,6 +159,31 @@ html {
   }
 }
 
+.container_noses {
+  position: relative;
+  top: 200px;
+}
+.noses {
+  position: absolute;
+  width: 35px;
+  height: 20px;
+  border-top: 5px solid #1a1818;
+  border-bottom-width: 0;
+  border-radius: 50%;
+}
+
+.noses_left {
+  left: -60px;
+  top: 45px;
+  transform: rotate(20deg);
+}
+
+.noses_right {
+  right: -60px;
+  top: 45px;
+  transform: rotate(-20deg);
+}
+
 .mount {
   position: relative;
   top: 330px;
