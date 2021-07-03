@@ -159,10 +159,115 @@ html {
   }
 }
 
+.container_moles {
+  position: relative;
+  top: 180px;
+}
+
+.moles {
+  position: absolute;
+  background: #1a1818;
+  border-radius: 50% / 90%;
+  transform: rotate(180deg);
+}
+
+.moles_1 {
+  width: 25px;
+  height: 40px;
+  left: -50px;
+  transform: rotate(190deg);
+}
+
+.moles_2 {
+  width: 25px;
+  height: 40px;
+  left: -20px;
+  transform: rotate(190deg);
+}
+
+.moles_3 {
+  width: 25px;
+  height: 40px;
+  left: 10px;
+  transform: rotate(190deg);
+}
+
+.moles_4 {
+  width: 25px;
+  height: 40px;
+  left: -50px;
+  top: -45px;
+  transform: rotate(190deg);
+}
+
+.moles_5 {
+  width: 25px;
+  height: 40px;
+  left: -20px;
+  top: -45px;
+  transform: rotate(190deg);
+}
+
+.moles_6 {
+  width: 25px;
+  height: 40px;
+  left: 10px;
+  top: -45px;
+  transform: rotate(190deg);
+}
+
+.moles_7 {
+  width: 25px;
+  height: 40px;
+  left: -50px;
+  top: -90px;
+  transform: rotate(190deg);
+}
+
+.moles_8 {
+  width: 25px;
+  height: 40px;
+  left: -20px;
+  top: -90px;
+  transform: rotate(190deg);
+}
+
+.moles_9 {
+  width: 25px;
+  height: 40px;
+  left: 10px;
+  top: -90px;
+  transform: rotate(190deg);
+}
+.moles_10 {
+  width: 25px;
+  height: 40px;
+  left: 10px;
+  top: -135px;
+  transform: rotate(190deg);
+}
+
+.moles_11 {
+  width: 25px;
+  height: 40px;
+  left: -20px;
+  top: -135px;
+  transform: rotate(190deg);
+}
+
+.moles_12 {
+  width: 25px;
+  height: 40px;
+  left: -50px;
+  top: -135px;
+  transform: rotate(190deg);
+}
+
 .container_noses {
   position: relative;
   top: 200px;
 }
+
 .noses {
   position: absolute;
   width: 35px;
