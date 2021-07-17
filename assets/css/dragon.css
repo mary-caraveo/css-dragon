@@ -205,7 +205,7 @@ html {
 .moles_5 {
   width: 25px;
   height: 40px;
-  left: -20px;
+  left: -38px;
   top: -45px;
   transform: rotate(180deg);
 }
@@ -295,6 +295,14 @@ html {
   left: 45px;
   top: -135px;
   transform: rotate(210deg);
+}
+
+.moles_17 {
+  width: 25px;
+  height: 40px;
+  left: -8px;
+  top: -45px;
+  transform: rotate(180deg);
 }
 
 .container_noses {

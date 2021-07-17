@@ -1,3 +1,3 @@
 # CSS Animations: MCaraveo ♥.♥
 
-![overview](./assets/img/cookies_.png)
+![overview](./assets/img/dragon.png)
