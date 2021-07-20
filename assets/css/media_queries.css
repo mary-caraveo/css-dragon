@@ -1,0 +1,15 @@
+@media (max-width: 575.98px) {
+    html {
+      min-width: 100vh;
+    }
+
+    .dragon {
+      margin-top: 20rem;
+    }
+
+    .text {
+      text-align: center;
+      top:35rem;
+      left: -2rem;
+    }
+}
