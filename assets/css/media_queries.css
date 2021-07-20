@@ -1,22 +1,17 @@
 @media (max-width: 575.98px) {
     html {
+      display: flex;
       min-width: 100vh;
-      margin: auto;
     }
 
     .container {
-      top: -8rem;
       margin: auto;
-    }
-
-    .dragon {
-      margin: auto;
-      left: -25rem;
+      left: 17em;
     }
 
     .text {
       text-align: center;
-      top:35rem;
-      left: -2rem;
+      top:25em;
+      left: -2em;
     }
 }
