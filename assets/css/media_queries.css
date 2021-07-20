@@ -1,14 +1,12 @@
 @media (max-width: 575.98px) {
     html {
-      display: flex;
       min-width: 100vh;
+      justify-content: center;
+      align-content: center;
     }
 
     .container {
-      justify-content: center;
-      align-content: center;
       margin: auto;
-      left: 17em;
       top: -16em;
 
     }
