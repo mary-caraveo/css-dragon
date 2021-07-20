@@ -1,10 +1,17 @@
 @media (max-width: 575.98px) {
     html {
       min-width: 100vh;
+      margin: auto;
+    }
+
+    .container {
+      top: -8rem;
+      margin: auto;
     }
 
     .dragon {
-      margin-top: 20rem;
+      margin: auto;
+      left: -25rem;
     }
 
     .text {
