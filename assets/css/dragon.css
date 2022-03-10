@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
 
-html {
-  display: grid;
-  place-items: center;
+body {
   background: #2d2d2d;
   overflow: hidden;
   margin: 0;
-  padding: 0;
-  height: 100vh;
 }
 
 .container {
-  position: relative;
-  top: -15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
 }
 
 /* Text */
@@ -21,7 +20,8 @@ html {
   font-family: "Henny Penny", cursive;
   font-size: 22px;
   color: #9eb633;
-  left: -15rem;
+  top: 21%;
+  left: 22%;
   animation: bounce-in-right 5s ease-in-out;
 }
 
@@ -52,14 +52,20 @@ html {
 }
 
 /* Eyes */
+.container-eyes {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 .eyes {
-  position: absolute;
+  display: flex;
   clip-path: circle(50% at 50% 40%);
   background: #9eb633;
   border-radius: 100% 100% 0 0;
   border-top: 10px solid #000000;
-  width: 160px;
-  height: 190px;
+  width: 11.1vw;
+  height: 24vh;
   animation: close-eyes 8s linear infinite;
   box-shadow: 0 10px 10px 10px rgba(97, 134, 105, 0.2) inset;
 }
@@ -81,15 +87,11 @@ html {
 .eyes-left {
   border-left: 2px solid #000000;
   border-right: 10px solid #000000;
-  left: 80px;
-  top: 130px;
 }
 
 .eyes-right {
   border-left: 10px solid #000000;
   border-right: 2px solid #000000;
-  right: 80px;
-  top: 130px;
 }
 
 .eyes_medium {
@@ -97,8 +99,8 @@ html {
   background: #000000;
   border-radius: 30%;
   box-shadow: 10px 10px 10px 10px rgba(168, 153, 153, 0.2) inset;
-  width: 65px;
-  height: 90px;
+  width: 4.5vw;
+  height: 11.5vh;
 }
 
 .eyes_medium_left {
@@ -116,8 +118,8 @@ html {
   position: absolute;
   background: #ffffff;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 2vw;
+  height: 4vh;
   animation: blink 1s alternate infinite;
 }
 
@@ -159,13 +161,21 @@ html {
   }
 }
 
+.container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
 .container_moles {
+  display: flex;
   position: relative;
-  top: 180px;
-  left: 12px;
+  top: -5rem;
+  left: 62%;
 }
 
 .moles {
+  display: flex;
   position: absolute;
   background: #1a1818;
   border-radius: 50% / 90%;
@@ -241,6 +251,7 @@ html {
   top: -90px;
   transform: rotate(200deg);
 }
+
 .moles_10 {
   width: 25px;
   height: 40px;
@@ -306,39 +317,37 @@ html {
 }
 
 .container_noses {
-  position: relative;
-  top: 200px;
+  display: flex;
+  align-items: end;
+  gap: 3rem;
 }
 
 .noses {
-  position: absolute;
-  width: 35px;
-  height: 20px;
+  display: flex;
+  width: 2.5vw;
+  height: 3vh;
   border-top: 5px solid #1a1818;
   border-bottom-width: 0;
   border-radius: 50%;
 }
 
 .noses_left {
-  left: -60px;
-  top: 45px;
   transform: rotate(20deg);
+  margin-bottom: 44%;
 }
 
 .noses_right {
-  right: -60px;
-  top: 45px;
   transform: rotate(-20deg);
+  margin-bottom: 44%;
 }
 
 .mount {
-  position: relative;
-  top: 330px;
-  left: -240px;
+  display: flex;
+  gap: 1.5rem;
+  top: 31rem;
 }
 
 .tooth {
-  position: absolute;
   background: white;
   border-radius: 50% / 100% 100% 0 0;
   transform: rotate(180deg);
@@ -347,61 +356,53 @@ html {
 .tooth-1 {
   width: 25px;
   height: 18px;
-  left: 50px;
   transform: rotate(190deg);
 }
 
 .tooth-2 {
   width: 25px;
   height: 20px;
-  left: 100px;
-  top: 10px;
+  margin-top: 3%;
   transform: rotate(190deg);
 }
 
 .tooth-3 {
   width: 25px;
   height: 12px;
-  left: 150px;
-  top: 16px;
+  margin-top: 5%;
   transform: rotate(188deg);
 }
 
 .tooth-4 {
   width: 25px;
   height: 12px;
-  left: 200px;
-  top: 20px;
+  margin-top: 7%;
   transform: rotate(185deg);
 }
 
 .tooth-5 {
   width: 25px;
   height: 15px;
-  right: -270px;
-  top: 20px;
+  margin-top: 6%;
   transform: rotate(-185deg);
 }
 
 .tooth-6 {
   width: 25px;
   height: 15px;
-  right: -320px;
-  top: 16px;
+  margin-top: 5%;
   transform: rotate(-188deg);
 }
 
 .tooth-7 {
   width: 25px;
   height: 20px;
-  right: -370px;
-  top: 10px;
+  margin-top: 3%;
   transform: rotate(-190deg);
 }
 
 .tooth-8 {
   width: 25px;
   height: 18px;
-  right: -420px;
   transform: rotate(-190deg);
 }
