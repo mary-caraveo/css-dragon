@@ -49,13 +49,18 @@ body {
   position: absolute;
   top: -3rem;
   left: -3rem;
+  margin: 0;
+}
+
+.heart {
+  margin: 0;
 }
 
 /* Eyes */
 .container-eyes {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 1.1rem;
 }
 
 .eyes {
@@ -64,8 +69,8 @@ body {
   background: #9eb633;
   border-radius: 100% 100% 0 0;
   border-top: 10px solid #000000;
-  width: 11.1vw;
-  height: 24vh;
+  width: 160px;
+  height: 190px;
   animation: close-eyes 8s linear infinite;
   box-shadow: 0 10px 10px 10px rgba(97, 134, 105, 0.2) inset;
 }
@@ -163,15 +168,17 @@ body {
 
 .container-center {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: end;
+  align-items: center;
 }
 
 .container_moles {
   display: flex;
   position: relative;
-  top: -5rem;
-  left: 62%;
+  align-items: center;
+  bottom: 75%;
+  left: 10%;
 }
 
 .moles {
@@ -187,6 +194,7 @@ body {
   width: 25px;
   height: 40px;
   left: -50px;
+  top: 5%;
   transform: rotate(170deg);
 }
 
@@ -194,6 +202,7 @@ body {
   width: 25px;
   height: 40px;
   left: -20px;
+  top: 5%;
   transform: rotate(180deg);
 }
 
@@ -201,6 +210,7 @@ body {
   width: 25px;
   height: 40px;
   left: 10px;
+  top: 5%;
   transform: rotate(190deg);
 }
 
@@ -383,7 +393,7 @@ body {
 .tooth-5 {
   width: 25px;
   height: 15px;
-  margin-top: 6%;
+  margin-top: 7%;
   transform: rotate(-185deg);
 }
 
