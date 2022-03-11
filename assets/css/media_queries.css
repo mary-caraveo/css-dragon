@@ -1,19 +1,59 @@
 @media (max-width: 575.98px) {
-    html {
-      min-width: 100vh;
-      justify-content: center;
-      align-content: center;
-    }
+  body {
+    overflow-y: scroll;
+  }
 
-    .container {
-      margin: auto;
-      top: -16em;
+  .text {
+    position: inherit;
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: 0;
+  }
 
-    }
+  .name {
+    position: inherit;
+    margin-top: 5.5rem;
+    top: 0;
+    left: 0;
+  }
 
-    .text {
-      text-align: center;
-      top:25em;
-      left: -2em;
-    }
+  .eyes {
+    width: 24vw;
+    height: 16vh;
+  }
+
+  .eyes_medium {
+    width: 11.5vw;
+    height: 8.5vh;
+  }
+
+  .iris_top {
+    width: 5vw;
+    height: 3vh;
+  }
+
+  .eyes_medium_left,
+  .eyes_medium_right {
+    top: 25px;
+  }
+
+  .container_moles {
+    top: -8rem;
+  }
+
+  .noses {
+    width: 9vw;
+    height: 2vh;
+  }
+
+  .noses_left,
+  .noses_right {
+    position: relative;
+    top: 26%;
+  }
+
+  .mount {
+    gap: 1rem;
+  }
 }
