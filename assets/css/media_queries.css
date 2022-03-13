@@ -19,27 +19,27 @@
   }
 
   .eyes {
-    width: 24vw;
-    height: 16vh;
+    width: 90px;
+    height: 110px;
   }
 
   .eyes_medium {
-    width: 11.5vw;
-    height: 8.5vh;
+    width: 40px;
+    height: 56px;
   }
 
   .iris_top {
-    width: 5vw;
-    height: 3vh;
+    width: 18px;
+    height: 22px;
   }
 
   .eyes_medium_left,
   .eyes_medium_right {
-    top: 25px;
+    top: 20px;
   }
 
   .container_moles {
-    top: -8rem;
+    top: -7rem;
   }
 
   .noses {
@@ -50,7 +50,7 @@
   .noses_left,
   .noses_right {
     position: relative;
-    top: 26%;
+    top: 34%;
   }
 
   .mount {
