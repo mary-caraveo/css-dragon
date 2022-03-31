@@ -1,11 +1,8 @@
 @media (max-width: 575.98px) {
-  body {
-    overflow-y: scroll;
-  }
-
   .text {
     position: inherit;
     text-align: center;
+    font-size: 16px;
     top: 0;
     left: 0;
     height: 0;
@@ -23,9 +20,27 @@
     height: 110px;
   }
 
+  .eyes-right {
+    border-left: 6px solid #000000;
+  }
+
+  .eyes-left {
+    border-right: 6px solid #000000;
+  }
+
   .eyes_medium {
     width: 40px;
     height: 56px;
+  }
+
+  .eyes_medium_right {
+    top: 20px;
+    right: 10px;
+  }
+
+  .eyes_medium_left {
+    top: 20px;
+    right: 10px;
   }
 
   .iris_top {
@@ -33,18 +48,8 @@
     height: 22px;
   }
 
-  .eyes_medium_left,
-  .eyes_medium_right {
-    top: 20px;
-  }
-
   .container_moles {
     top: -7rem;
-  }
-
-  .noses {
-    width: 9vw;
-    height: 2vh;
   }
 
   .noses_left,
@@ -54,6 +59,49 @@
   }
 
   .mount {
-    gap: 1rem;
+    position: relative;
+    top: 8px;
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  body {
+    overflow-y: scroll;
+  }
+
+  .container {
+    padding-top: 5rem;
+  }
+
+  .text {
+    font-size: 16px;
+    top: 30%;
+    left: 5rem;
+  }
+
+  .name {
+    top: -2rem;
+    left: -2rem;
+  }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    overflow-y: scroll;
+  }
+
+  .container {
+    padding-top: 5rem;
+  }
+
+  .text {
+    font-size: 16px;
+    top: 30%;
+    left: 8rem;
+  }
+
+  .name {
+    left: -2rem;
   }
 }
